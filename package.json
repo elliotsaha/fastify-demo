@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "fastify": "^4.26.2",
+    "fastify-swagger": "^5.2.0",
+    "pino-pretty": "^11.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsx": "^4.7.3"
+  },
+  "type": "module",
+  "name": "fastify-demo",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "tsx watch ."
+  },
+  "author": "Elliot Saha",
+  "license": "ISC",
+  "description": ""
+}
